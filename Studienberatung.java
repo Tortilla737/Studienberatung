@@ -6,6 +6,6 @@ public class Studienberatung{
 		
 		System.out.println("Hast du Abitur?");
 		
-		
+		String Antwort1 = scanner.nextln();
 	}
 }
