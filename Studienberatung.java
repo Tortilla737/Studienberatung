@@ -41,14 +41,14 @@ public class Studienberatung{
 		String Antwort1 = scanner.next();
 		
 		if(Antwort1.equalsIgnoreCase("n")){
-			
+			System.out.println("Besser noch studieren.");
 		}
 		else if(Antwort1.equalsIgnoreCase("j")){
-			
+			System.out.println("Du kannst ja spaeter noch studieren");
 		}
 		else{
 			System.out.println("<j> oder <n> Antworten");
-			Frage2();
+			Frage3();
 		}		
 	}
 	public void Frage4(){
