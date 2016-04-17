@@ -29,7 +29,7 @@ public class Studienberatung{
 			System.out.println("Nicht studieren");
 		}
 		else if(Antwort1.equalsIgnoreCase("j")){
-			System.out.println("Auf jeden Fall studieren");
+			Frage3();
 		}
 		else{
 			System.out.println("<j> oder <n> Antworten");
@@ -37,7 +37,19 @@ public class Studienberatung{
 		}
 	}
 	public void Frage3(){
+		System.out.println("Hast du eine Berufsausbildung?");
+		String Antwort1 = scanner.next();
 		
+		if(Antwort1.equalsIgnoreCase("n")){
+			
+		}
+		else if(Antwort1.equalsIgnoreCase("j")){
+			
+		}
+		else{
+			System.out.println("<j> oder <n> Antworten");
+			Frage2();
+		}		
 	}
 	public void Frage4(){
 		System.out.println("Bist du Wissbegierig?");
