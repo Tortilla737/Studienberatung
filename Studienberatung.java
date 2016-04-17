@@ -26,10 +26,10 @@ public class Studienberatung{
 		String Antwort1 = scanner.next();
 		
 		if(Antwort1.equalsIgnoreCase("n")){
-			Frage3();
+			System.out.println("Nicht studieren");
 		}
 		else if(Antwort1.equalsIgnoreCase("j")){
-			
+			System.out.println("Auf jeden Fall studieren");
 		}
 		else{
 			System.out.println("<j> oder <n> Antworten");
@@ -43,13 +43,14 @@ public class Studienberatung{
 		System.out.println("Bist du Wissbegierig?");
 		String Antwort1 = scanner.nextln();
 		if(Antwort1.equalsIgnoreCase("n")){
-			
+			System.out.println("Nicht studieren");
 		}
 		else if(Antwort1.equalsIgnoreCase("n")){
-			
+			System.out.println("Nicht studieren");
 		}
 		else{
-			
+			System.out.println("<j> oder <n> Antworten");
+			Frage4();
 		}
 	}
 }
