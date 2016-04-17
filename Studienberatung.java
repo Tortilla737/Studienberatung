@@ -14,7 +14,7 @@ public class Studienberatung{
 			Frage2();
 		}
 		else if(Antwort1.equalsIgnoreCase("j")){
-			
+			Frage4();
 		}
 		else{
 			System.out.println("<j> oder <n> Antworten");
@@ -38,5 +38,18 @@ public class Studienberatung{
 	}
 	public void Frage3(){
 		
+	}
+	public void Frage4(){
+		System.out.println("Bist du Wissbegierig?");
+		String Antwort1 = scanner.nextln();
+		if(Antwort1.equalsIgnoreCase("n")){
+			
+		}
+		else if(Antwort1.equalsIgnoreCase("n")){
+			
+		}
+		else{
+			
+		}
 	}
 }
